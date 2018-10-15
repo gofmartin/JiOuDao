@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0035)http://localhost:15900/Default.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="./login_files/default.css" rel="stylesheet" type="text/css">
+    <script src="./login_files/jquery-1.4.1.min.js.下载" type="text/javascript"></script>
+    <title>
+	奇偶道　辅教、助学软件　－　登录
+</title>
+    <script>
+        $(document).ready(function () {
+            $("#TextBox1").focus(function () {
+
+            });
+        });
+    </script>
+</head>
+<body data-gr-c-s-loaded="true">
+    <form name="form1" method="post" action="http://localhost:15900/Login.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTM3NDQ2Mzg5ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAwUMUmFkaW9CdXR0b24xBQxSYWRpb0J1dHRvbjEFDFJhZGlvQnV0dG9uMokGS5Gy4BbvPHlBC9YO7/qtHQT+cRHlPrcrXFy7afON">
+</div>
+
+    <div class="logincenter">
+    <table class="logintable">
+        <tbody><tr>
+            <td class="t1 cB1">用户名:</td>
+            <td class="t2">
+                <input name="TextBox1" type="text" id="TextBox1" class="text">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="t1 cB1">密　码:</td>
+            <td class="t2">
+                <input name="TextBox2" type="password" id="TextBox2" class="text">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input id="RadioButton1" type="radio" name="aa" value="RadioButton1"><label for="RadioButton1">教师</label>　　
+                <input id="RadioButton2" type="radio" name="aa" value="RadioButton2" checked="checked"><label for="RadioButton2">学生</label>
+                    <div>&nbsp;</div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="button" name="Button1" value="登　录" id="Button1" class="btnLogin" onclick="userCheck()">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="button" name="Button2" value="注　册" id="Button2" class="btnLogin">
+            </td>
+        </tr>
+    </tbody></table>
+    <div style="font-size:12px;line-height:120%;">本站点地址:http://jod.ben3.net 版权所有:XX职高 初始帐号:老师 t1/123 学生s1/123</div>
+    </div>
+    
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAcWzsiQhwRMOy/nNvl1oMLPESCFkFW/RuhzY1oLb/NUVB2nXP6dhZn6mKtmTGNHd3M+z2D39tFP4aUasa4lkyod8bwZSkS6+atSju6XtPuygs34O/GfAV4V4n0wgFZHr3c/WMskeKo19Gyidl+m11dTu/ew3Kuut68y76S3X7ei+cmnkSvzLxa5sCvnZdBGpws=">
+</div></form>
+
+<script type="text/javascript">
+	function userCheck(){
+		var username = document.getElementById('TextBox1').value;
+		var userpwd = document.getElementById('TextBox2').value;
+		if(username == "t1" && userpwd == "123"){
+			window.location.href="index.html";
+		}
+		else{
+			alert("用户名或密码错误！");
+		}
+	}
+</script>
+
+</body></html>

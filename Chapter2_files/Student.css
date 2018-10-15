@@ -1,0 +1,498 @@
+﻿*
+{
+	color:#263709;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	font-size:14px;
+}
+body 
+{
+	background-color:#d9d4c1;
+	padding-top:0;
+	margin:0;
+}
+form
+{
+	margin-top:0;
+	padding-top:0;
+}
+a
+{
+	text-decoration:none;
+}
+
+Div.main
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	text-align:center;
+}
+table.topBar
+{
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	
+}
+.topBar1
+{
+	background-image:url('../Images/Top1.gif');
+	background-repeat:no-repeat;
+	width:20px;
+	height:60px;
+}
+.topBar3
+{
+	background-image:url('../Images/Top3.gif');
+	width:20px;
+	height:60px;
+	background-repeat:no-repeat;
+}
+.topBar2
+{
+	background-image:url('../Images/Top2.gif');
+	background-repeat:repeat-x;
+}
+#MainC
+{
+	min-height:500px;
+}
+
+.mainBody
+{
+	width:100%;	
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.mainBodyLeft
+{
+	width:190px;
+	text-align:center;	
+	vertical-align:top;
+	font-size:3px;
+	background-image:url('../Images/leftBGBlank.gif');
+}
+.leftTop1
+{
+	width:100%;
+	border-collapse:collapse;
+	vertical-align:top;
+	font-size:14px;
+}
+.leftTop1 td
+{
+	vertical-align:top;
+}
+.LT1
+{
+	background-image:url('../Images/LT1.gif');
+	height:239px;	
+}
+.LT2
+{
+	background-image:url('../Images/LT2.gif');
+
+}
+.LT3
+{
+	background-image:url('../Images/LT3.gif');
+	height:27px;
+}
+.LT4
+{
+	height:100%;
+	background-image:url('../Images/leftBGBlank.gif');
+}
+.LT5
+{
+	height:25px;
+	background-image:url('../Images/leftEnd.gif');
+	background-repeat:no-repeat;
+}
+.CalendarMonth
+{
+	margin-top:19px;
+	font-size:13px;
+	font-weight:bold;
+	width:172px;
+	color:#fefffd;
+	
+}
+.CalendarDay
+{
+	height:45px;
+	line-height:45px;
+	font-size:40px;
+	width:172px;
+}
+.HeadIcon
+{
+	width:172px;
+	margin-top:40px;
+}
+.WelcomeTip
+{
+	font-weight:normal;
+	margin-top:10px;
+	width:172px;
+}
+
+.LeftFlag1
+{
+	background-image:url('../Images/leftFlag.gif');
+	width:135px;
+	height:55px;
+	line-height:55px;	
+	color:#fefffd;
+	margin-left:20px;
+	font-weight:bold;
+}
+.LeftFlag2
+{
+	background-image:url('../Images/leftFlag.gif');
+	width:135px;
+	height:55px;
+	color:#fefffd;
+	margin-left:20px;
+	font-weight:bold;
+}
+.LeftFlag2 .aa
+{
+	color:#fefffd;
+	font-weight:bold;
+	margin-top:0px;
+	padding-top:15px;
+	width:130px;
+}
+.LeftFlag2 .bb
+{
+	font-size:12px;
+	font-weight:normal;
+	padding-top:2px;
+	color:#fefffd;
+	width:130px;
+}
+
+.tbMain
+{
+	width:100%;
+	border-collapse:collapse;
+}
+.tbMain .MT1
+{
+	background-image:url('../Images/rightTopBG.gif');
+	height:17px;
+}
+.tbMain .RT1
+{
+	background-image:url('../Images/rightEdgeTop.gif');
+	width:18px;	
+}
+.tbMain .MT2
+{
+	background-color:#fefffd;
+	min-height:500px;
+}
+.tbMain .RT2
+{
+	background-image:url('../Images/rightEdgeMiddle.gif');
+}
+
+.PT
+{
+	background-image:url('../Images/PT.gif');
+	text-align:right;
+	background-repeat:repeat-x;	
+}
+
+.FooterTop
+{
+}
+.FooterMain
+{
+	background-color:#6c6654;
+	padding:8px 15px 8px 15px;
+	color:#b8b5a2;
+	font-size:12px;
+	text-align:left;
+}
+.FooterMain1
+{
+	background-color:#6c6654;
+	padding:8px 15px 8px 15px;
+	color:#b8b5a2;
+	font-size:12px;
+	text-align:right;
+}
+
+.userinfo
+{
+	width:80%;
+	margin-top:15px;
+}
+
+.userinfo .title
+{
+	line-height:30px;
+	font-weight:bold;
+	border-bottom:1px solid #263709;
+}
+.userinfo .l1
+{
+	width:100px;
+	text-align:right;
+	line-height:25px;
+	border-bottom:1px dashed #263709;
+}
+.userinfo .l2
+{
+	text-align:left;
+	padding-left:10px;
+}
+
+.linkBar
+{
+	margin-top:10px;
+}
+.linkBar .linkBarTB
+{
+	width:50%;
+	margin:3px auto 3px auto;
+}
+
+a.btn1
+{
+	text-decoration:none;
+	background-image:url('../Images/newtopic.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	display:block;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+}
+
+a.btn2
+{
+	text-decoration:none;
+	background-image:url('../Images/reply.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	display:block;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+}
+
+.btnMain
+{
+	background-image:url('../Images/newtopic.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+}
+
+
+.changePassword
+{
+	margin-top:10px;
+	width:80%;
+}
+.changePassword .title
+{
+	line-height:30px;
+	font-weight:bold;
+	border-bottom:1px solid #263709;
+}
+.changePassword .l1
+{
+	width:200px;
+	text-align:right;
+	line-height:25px;
+	background-color:#fafafa;
+}
+.changePassword .l2
+{
+	text-align:center;
+	width:270px;
+	background:url('../Images/forumBG.gif') no-repeat scroll 0 0 transparent;
+	line-height:37px;
+	height:37px;
+}
+.changePassword .l3
+{
+	text-align:left;
+	color:#808080;
+}
+.changePassword .text
+{
+	width:260px;
+	height:24px;
+	border:0;
+	font-size:16px;
+}
+
+.examinfo
+{
+	width:80%;
+	border-collapse:collapse;
+	margin:10px auto 10px auto;
+	
+}
+.examinfo td
+{
+	border:1px solid #263709;
+	line-height:25px;
+	text-align:center;
+}
+.examinfo .title
+{
+	line-height:30px;
+	font-weight:bold;
+	border:0px;
+	border-bottom:1px solid #263709;
+	text-align:center;
+	font-size:20px;
+	
+}
+.examinfo .tc2
+{
+	text-align:left;
+	padding-left:5px;
+}
+
+.mainDiv
+{
+	width:100%;
+	min-height:500px;
+	text-align:left;
+	padding-left:15px;
+}
+
+.grey
+{
+	color:Gray;
+}
+.navBar
+{
+	line-height:200%;
+	padding-left:15px;
+	font-size:12px;
+	text-align:left;
+	border-bottom:1px dotted #ccc;
+}
+.navBar a
+{
+	font-size:12px;
+}
+.navBar a:hover
+{
+	text-decoration:underline;
+}
+.scList1
+{
+	line-height:200%;
+	font-weight:bold;
+	font-size:18px;
+	padding-left:10px;
+	margin-top:10px;
+}
+.scList2
+{
+	line-height:170%;
+	font-weight:normal;
+	font-size:14px;
+	padding-left:20px;
+}
+
+.mainDiv .CapterName
+{
+	line-height:200%;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	margin-top:10px;
+}
+.mainDiv .lessonName
+{
+	line-height:200%;
+	font-size:14px;
+	padding-left:20px;
+}
+
+.imgShow
+{
+	text-align:center;
+	margin-top:30px;
+}
+.linker
+{
+	text-align:center;
+}
+.linker a
+{
+	width:10px;
+	text-decoration:underline;
+}
+.linker a.onit
+{
+	font-weight:bold;
+	color:red;
+}
+
+div.doExamDiv
+{
+	width:100%;
+	margin:10px 0 10px 0;
+	text-align:center;
+}
+.doExamDiv .title
+{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+.doExamDiv .showinfo
+{
+	text-align:right;
+}
+.doExamDiv .ExamList td
+{
+	text-align:left;
+	line-height:200%;
+	padding-left:10px;
+}
+.doExamDiv .ExamList .examInfo
+{
+	border-left:5px solid #d9d4c1;
+	padding-left:0px;
+	padding-top:10px;
+}
+
+.doExamDiv .ExamList .examAnswer
+{
+	padding-left:20px;
+	background-color:#d9d4c1;
+	border:0;
+	margin-left:0;
+}
+
+.doExamDiv .ExamList .examAnswer label
+{
+	padding:0 5px 0 5px;
+	font-weight:bold;
+	margin-right:10px;
+}
+
+.doExamDiv .ExamList .wrong
+{
+	background-color:#f6baba;
+	border:1px solid #ff5500;
+}

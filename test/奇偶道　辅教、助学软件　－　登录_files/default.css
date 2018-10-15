@@ -1,0 +1,114 @@
+﻿*
+{
+	color:#263709;
+}
+body 
+{
+	background-color:#D9D4C1;
+	margin:0px;
+}
+
+.cB1{color:#263709}
+
+Div.logincenter
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:723px;
+	height:368px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-362px;
+	margin-top:-184px;
+	background-image:url('../Images/Login.png');
+	text-align:center;
+}
+
+.logintable
+{
+	margin-top:150px;
+	width:100%;
+}
+td.t1
+{
+	text-align:right;
+	padding-right:5px;
+	width:220px;
+	
+}
+td.t2
+{
+	text-align:center;
+	width:270px;
+	background:url('../Images/forumBG.gif') no-repeat scroll 0 0 transparent;
+	line-height:37px;
+	height:37px;
+}
+td.t3{}
+
+.text
+{
+	width:260px;
+	height:24px;
+	border:0;
+	font-size:16px;
+}
+
+.btnLogin
+{
+	width:72px;
+	height:36px;
+	background-image:url('../Images/btn_s1.gif');
+	border:0px;
+	font-size:14px;
+	color:#fff;
+	cursor:hand;
+}
+
+
+.regdiv
+{
+	margin:0px auto 0px auto;
+	width:900px;
+	background-color:#fefffd;
+	border-spacing:5px;
+	
+}
+.regdiv .topBarTR td
+{
+	border-bottom:1px dotted #a0a0a0;
+	padding:10px;
+}
+.regdiv .welcome
+{
+	line-height:300%;
+	padding-left:50px;
+}
+.regdiv .td1
+{
+	padding-right:10px;
+	font-weight:bold;
+	width:150px;
+	border:0px solid #efefef;
+	text-align:right;
+	line-height:200%;
+	font-size:14px;
+}
+.regdiv .td3
+{
+	color:#7a7a7a;
+	padding-left:5px;
+	text-align:left;
+	font-size:12px;
+}
+.regdiv .regend
+{
+	height:35px;
+	background-color:#707070;
+	color:#fff;
+	text-align:right;
+	padding-right:30px;
+	font-size:12px;
+}
+
