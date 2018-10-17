@@ -1,6 +1,5 @@
 ﻿*
 {
-	color:#263709;
 	border:0px;
 	padding:0px;
 	margin:0px;
@@ -382,6 +381,7 @@ a.btn2
 }
 .navBar
 {
+	color: #000000;
 	line-height:200%;
 	padding-left:15px;
 	font-size:12px;
@@ -390,6 +390,7 @@ a.btn2
 }
 .navBar a
 {
+	color: #000000;
 	font-size:12px;
 }
 .navBar a:hover
