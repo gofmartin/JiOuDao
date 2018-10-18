@@ -1,0 +1,15 @@
+﻿function InitLink() {
+    $("a[rel='downloadlink']").click(function () {
+        $.get("../Core/DownloadFile_js.aspx",
+            { id: this.name },
+            function (data) {
+                if (data != "OK") {
+                    alert(data);
+                }
+            });
+    });
+    }
+
+    $(document).ready(function () {
+        InitLink();
+    });

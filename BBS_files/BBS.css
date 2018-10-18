@@ -1,0 +1,536 @@
+﻿*
+{
+	color:#263709;
+	border:0px;
+	padding:0px;
+	margin:0px;
+}
+body 
+{
+	background-color:#d9d4c1;
+	padding-top:0;
+	margin:0;
+}
+form
+{
+	margin-top:0;
+	padding-top:0;
+}
+a
+{
+	text-decoration:none;
+}
+
+Div.main
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	text-align:center;
+}
+table.topBar
+{
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	
+}
+.topBar1
+{
+	background-image:url('../Images/Top1.gif');
+	background-repeat:no-repeat;
+	width:20px;
+	height:60px;
+}
+.topBar3
+{
+	background-image:url('../Images/Top3.gif');
+	width:20px;
+	height:60px;
+	background-repeat:no-repeat;
+}
+.topBar2
+{
+	background-image:url('../Images/Top2.gif');
+	background-repeat:repeat-x;
+}
+.nav
+{
+	text-align:right;
+	width:100%;
+	margin-bottom:5px;
+}
+.nav td
+{
+	
+}
+.navBar
+{
+	padding-left:10px;
+	text-align:left;
+	font-size:12px;
+	border-bottom:1px dotted #263709;
+}
+.navBar a
+{
+	line-height:200%;
+	text-decoration:none;
+	font-size:12px;
+	
+}
+.navBar a:hover
+{
+	text-decoration:underline;
+}
+.bbsinfobar
+{
+	text-align:left;
+	line-height:200%;
+	font-size:12px;
+	padding-left:10px;
+	margin-bottom:5px;
+	border-bottom:0px dotted #263709;
+}
+
+.topicNum
+{
+	font-weight:bold;
+	color:#ff0000;
+}
+.replyNum
+{
+	font-weight:bold;
+	color:#424140;
+}
+.lastTime
+{
+	
+}
+#MainC
+{
+	min-height:500px;
+}
+
+.mainBody
+{
+	width:100%;	
+	border-spacing:0;
+	border-collapse:collapse;
+}
+.mainBodyLeft
+{
+	width:190px;
+	text-align:center;	
+	vertical-align:top;
+	font-size:3px;
+	background-image:url('../Images/leftBGBlank.gif');
+}
+.leftTop1
+{
+	width:100%;
+	border-collapse:collapse;
+	vertical-align:top;
+	font-size:14px;
+}
+.leftTop1 td
+{
+	vertical-align:top;
+}
+.LT1
+{
+	background-image:url('../Images/LT1.gif');
+	height:239px;	
+}
+.LT2
+{
+	background-image:url('../Images/LT2.gif');
+
+}
+.LT3
+{
+	background-image:url('../Images/LT3.gif');
+	height:27px;
+}
+.LT4
+{
+	height:100%;
+	background-image:url('../Images/leftBGBlank.gif');
+}
+.LT5
+{
+	height:25px;
+	background-image:url('../Images/leftEnd.gif');
+	background-repeat:no-repeat;
+}
+.CalendarMonth
+{
+	margin-top:19px;
+	font-size:13px;
+	font-weight:bold;
+	width:172px;
+	color:#fefffd;
+	
+}
+.CalendarDay
+{
+	height:45px;
+	line-height:45px;
+	font-size:40px;
+	width:172px;
+}
+.HeadIcon
+{
+	width:172px;
+	margin-top:40px;
+}
+.WelcomeTip
+{
+	font-weight:normal;
+	margin-top:10px;
+	width:172px;
+}
+
+.LeftFlag1
+{
+	background-image:url('../Images/leftFlag.gif');
+	width:135px;
+	height:55px;
+	line-height:55px;	
+	color:#fefffd;
+	margin-left:20px;
+	font-weight:bold;
+}
+.LeftFlag2
+{
+	background-image:url('../Images/leftFlag.gif');
+	width:135px;
+	height:55px;
+	color:#fefffd;
+	margin-left:20px;
+	font-weight:bold;
+}
+.LeftFlag2 .aa
+{
+	color:#fefffd;
+	font-weight:bold;
+	margin-top:0px;
+	padding-top:15px;
+	width:130px;
+}
+.LeftFlag2 .bb
+{
+	font-size:12px;
+	font-weight:normal;
+	padding-top:2px;
+	color:#fefffd;
+	width:130px;
+}
+
+.tbMain
+{
+	width:100%;
+	border-collapse:collapse;
+}
+.tbMain .MT1
+{
+	background-image:url('../Images/rightTopBG.gif');
+	height:17px;
+}
+.tbMain .RT1
+{
+	background-image:url('../Images/rightEdgeTop.gif');
+	width:18px;	
+}
+.tbMain .MT2
+{
+	background-color:#fefffd;
+	min-height:500px;
+}
+.tbMain .RT2
+{
+	background-image:url('../Images/rightEdgeMiddle.gif');
+}
+
+.PT
+{
+	background-image:url('../Images/PT.gif');
+	text-align:right;
+	background-repeat:repeat-x;	
+}
+
+.FooterTop
+{
+}
+.FooterMain
+{
+	background-color:#6c6654;
+	padding:8px 15px 8px 15px;
+	color:#b8b5a2;
+	font-size:12px;
+	text-align:left;
+}
+.FooterMain1
+{
+	background-color:#6c6654;
+	padding:8px 15px 8px 15px;
+	color:#b8b5a2;
+	font-size:12px;
+	text-align:right;
+}
+
+.NewTopic
+{
+	width:100%;
+	line-height:180%;
+	font-size:12px;
+}
+.NewTopic textarea
+{
+	width:680px;
+	height:350px;
+}
+.NewTopic .title
+{
+}
+.NewTopic .t1
+{
+	text-align:right;
+	vertical-align:middle;
+	width:80px;
+	font-weight:bold;	
+}
+.NewTopic .t21
+{
+	text-align:left;
+}
+.NewTopic .t21 input
+{
+	height:37px;
+	line-height:37px;	
+	background-color:#f0f0f0;
+	width:670px;
+	font-size:16px;
+	padding-left:10px;
+}
+.btnMain
+{
+	background-image:url('../Images/newtopic.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+}
+.btnReturn
+{
+	background-image:url('../Images/reply.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+}
+
+
+a.btn1
+{
+	text-decoration:none;
+	background-image:url('../Images/newtopic.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	display:block;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+	
+}
+
+a.btn2
+{
+	text-decoration:none;
+	background-image:url('../Images/reply.gif');
+	width:67px;
+	height:31px;
+	line-height:31px;
+	display:block;
+	font-weight:bold;
+	color:#fff;
+	font-size:12px;
+	text-align:center;
+}
+
+.buttonBar
+{
+	text-align:right;
+	padding-right:10px;
+	line-height:180%;
+	font-size:12px;
+}
+
+.tbListContainer
+{
+	min-height:400px;
+}
+
+.tbList
+{
+	border:1px solid #ccc;
+	width:100%;
+	text-align:left;
+	
+}
+.tbList .title
+{
+	line-height:200%;
+	font-size:16px;
+	font-weight:normal;
+	padding-left:10px;
+	border-bottom:1px solid #ccc;
+	margin-bottom:3px;
+}
+.tbList .list a:hover
+{
+	text-decoration:underline;
+}
+.tbList .list td
+{
+	border-bottom:1px solid #f0f0f0;
+	line-height:200%;
+	font-size:12px;
+}
+.tbList .list .t1
+{
+	
+}
+.tbList .list .t2
+{
+	width:100px;
+	text-align:right;
+	padding-right:3px;
+
+}
+.tbList .list .t3
+{
+	padding-left:3px;
+	text-align:center;
+	width:100px;
+}
+.tbList .LinkBar
+{
+	padding-top:0;
+	text-align:right;
+	font-size:12px;
+	line-height:200%;
+	padding-right:10px;
+}
+.tbList .LinkBar .Linker
+{
+	margin:5px 0 5px 0;
+	padding-right:5px;
+}
+
+.TopicContainer
+{
+	border:1px solid #ccc;
+	width:98%;
+	padding:5px;
+	text-align:left;
+	font-size:12px;
+	
+}
+.viewTopic
+{
+	width:100%;
+}
+.viewTopic .topicTitle
+{
+	font-size:16px;
+	padding-bottom:5px;
+}
+
+.viewTopic .topicInfo
+{
+	border-left:3px solid #bbd8f8;
+	background-color:#F3F7FD;	
+	width:100%;
+	
+}
+.viewTopic .topicInfo td
+{
+	line-height:200%;
+	text-align:left;
+}
+.viewTopic .topicInfo .topicInfoTB
+{
+	width:100%;
+}
+.viewTopic .topicInfo .topicInfoTB .TopicSenderHeader
+{
+	text-align:right;
+}
+
+.viewTopic .topicContent
+{
+	padding:5px;
+	line-height:180%;
+}
+
+.ReplyContainer
+{
+	border:0px solid #F3F7FD;
+	border-color:#fff;
+	width:90%;
+	margin:0px 4px 0px auto;
+}
+.ReplyContainer td
+{
+	border:0px;
+	border-color:#fff;
+}
+.ReplyContainer .ReplySenderHeader
+{
+	border:1px solid #bbd8f8;
+	border-right:0;
+	width:62px;
+}
+.ReplyContainer .ReplyInfoBar
+{
+	border-top:1px solid #bbd8f8;
+	border-right:1px solid #bbd8f8;
+	background-color:#efefef;
+	line-height:180%;
+	padding-left:15px;
+	font-weight:bold;
+}
+.ReplyContainer .ReplyContent
+{
+	border:1px solid #bbd8f8;
+	border-top:0;
+	line-height:180%;
+	padding:5px;
+}
+
+.ReplyBar
+{
+	width:100%;
+	margin:10px auto 10px auto;
+	border-top:1px dotted #ccc;	
+}
+.ReplyBar .UserPic
+{
+	width:130px;
+	text-align:right;
+	vertical-align:top;
+}
+.ReplyBar td.replyEditorTD
+{
+	padding:0 5px 0 5px;
+}
+.ReplyBar .buttonBar
+{
+	padding-top:5px;
+}
